@@ -1,0 +1,16 @@
+theme: jekyll-theme-cayman
+title: VLESS Vulnerability Awareness
+description: What it is, who is at risk, and how to protect yourself
+nav:
+  - title: Home
+    url: /
+  - title: Technical Deep Dive
+    url: /technical
+  - title: GrapheneOS Setup
+    url: /grapheneos-setup
+  - title: Threat Model
+    url: /threat-model
+  - title: Server Hardening
+    url: /servers
+  - title: Contributing
+    url: /CONTRIBUTING
