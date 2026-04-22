@@ -15,7 +15,7 @@ The internet was built as a decentralized, open system. Over time governments, c
 
 This is not unique to Russia. Similar dynamics exist in China, Iran, and increasingly in countries that would not describe themselves as authoritarian. The tools and techniques travel. What gets deployed against dissidents and journalists in one country gets studied and copied elsewhere. The fact that Russian banking apps are now expected to help identify VPN users is a glimpse at a direction of travel, not an isolated edge case.
 
-Be skeptical of influencers, YouTube channels, and social media accounts that heavily promote specific VPN products, especially commercial ones ( i know most are aware of this but common sense is not so common in 2026). VPN marketing is one of the most affiliate-commission-driven spaces on the internet. Many people recommending products have a direct financial incentive to do so and no particular reason to tell you about the problems. The security community that actually finds and discloses vulnerabilities like this one operates very differently, usually without monetization, and usually asking only that you share the information.
+Be skeptical of influencers, YouTube channels, and social media accounts that heavily promote specific VPN products, especially commercial ones ( i know most are aware of this but common sense is not so common in 2026 ). VPN marketing is one of the most affiliate-commission-driven spaces on the internet. Many people recommending products have a direct financial incentive to do so and no particular reason to tell you about the problems. The security community that actually finds and discloses vulnerabilities like this one operates very differently, usually without monetization, and usually asking only that you share the information.
 
 The researcher who found this vulnerability did not sell it. They reported it to the developers, got ignored by most of them ( as normal in these cases :/ ), and then published it publicly so that ordinary people would have a chance to protect themselves before state-level actors exploited it at scale. 
 
@@ -137,7 +137,7 @@ If you connect to your xray server through a commercial VPN first, the exposed I
 
 The fact that this vulnerability was found, documented, and published at all is a direct result of open source software. The researcher could read the xray and sing-box code, understand exactly what the local socks5 proxy was doing and why it had no authentication, build a proof of concept, and publish everything for anyone to verify independently.
 
-Closed source VPN clients give you none of that. You cannot audit them. You cannot verify their claims (don't trust nol ogs marketing). You cannot know whether they have been compelled to add a module similar to what multiple government has been demanding from domestic companies. Several commercial VPN providers have been caught logging traffic they claimed not to log, handing data to law enforcement, or operating in jurisdictions where they are legally required to cooperate with state requests regardless of what their marketing says.
+Closed source VPN clients give you none of that. You cannot audit them. You cannot verify their claims (don't trust no logs marketing). You cannot know whether they have been compelled to add a module similar to what multiple government has been demanding from domestic companies. Several commercial VPN providers have been caught logging traffic they claimed not to log, handing data to law enforcement, or operating in jurisdictions where they are legally required to cooperate with state requests regardless of what their marketing says.
 
 The developers who responded well to this disclosure, thanked the researcher and committed to fixing the issue, are the ones building in public with their reputations and code on the line. The ones who dismissed it or went quiet are the ones you should think carefully about trusting with your safety.
 
@@ -150,9 +150,13 @@ Internet freedom is not a technical problem with a permanent technical solution.
 All credit for discovering and disclosing this vulnerability goes to the original researcher who published on Habr. They explicitly asked the community to help spread this information, which is why this repo exists.
 
 Original Habr article : https://habr.com/ru/articles/1020080/
+
 POC for per-app split tunneling bypass: https://github.com/runetfreedom/per-app-split-bypass-poc  
+
 Advanced VPN detector by @cherepavel: https://github.com/cherepavel/VPN-Detector  
+
 GrapheneOS profiles documentation: https://grapheneos.org/features  
+
 Throne (formerly Nekoray): https://github.com/throneproj/Throne  
 
 ---
@@ -160,10 +164,7 @@ Throne (formerly Nekoray): https://github.com/throneproj/Throne
 ## Patch tracker
 
 This section will be updated (will try my best) as clients ship fixes. PRs to update this table are welcome :))
-![Hiddify](https://img.shields.io/github/v/release/hiddify/hiddify-app?label=Hiddify%20Latest&color=red)
-![v2rayNG](https://img.shields.io/github/v/release/2dust/v2rayNG?label=v2rayNG%20Latest&color=red)
-![Throne](https://img.shields.io/github/v/release/throneproj/Throne?label=Throne%20Latest&color=red)
-![Hiddify](https://img.shields.io/github/issues/search?q=repo%3Ahiddify%2Fhiddify-app+socks5+auth&label=socks5+fix+issue)
+
 
 | Client | Fixed | Notes |
 |---|---|---|
@@ -173,5 +174,10 @@ This section will be updated (will try my best) as clients ship fixes. PRs to up
 | Hiddify | No response | Pending |
 | Throne | Not tested in original disclosure | Pending |
 | All others | No response | Pending |
+
+![Hiddify](https://img.shields.io/github/v/release/hiddify/hiddify-app?label=Hiddify%20Latest&color=red)
+![v2rayNG](https://img.shields.io/github/v/release/2dust/v2rayNG?label=v2rayNG%20Latest&color=red)
+![Throne](https://img.shields.io/github/v/release/throneproj/Throne?label=Throne%20Latest&color=red)
+![Hiddify](https://img.shields.io/github/issues/search?q=repo%3Ahiddify%2Fhiddify-app+socks5+auth&label=socks5+fix+issue)
 
 ![Last Updated](https://img.shields.io/github/last-commit/use3r-riddl3r/vless-vuln-awareness?label=last%20updated)
