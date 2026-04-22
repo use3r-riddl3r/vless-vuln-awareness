@@ -1,3 +1,4 @@
+<div dir="rtl">
 # آگاهی از آسیب‌پذیری کلاینت‌های VLESS
 
 این مخزن به این دلیل وجود دارد که یک محقق امنیتی روسی یافته‌ای مهم درباره تقریباً همه کلاینت‌های محبوب VLESS/xray منتشر کرد، از جامعه خواست این اطلاعات را پخش کند، و اکثر افراد خارج از حلقه‌های روسی‌زبان هنوز از آن خبر ندارند. این یک خلاصه به زبان انگلیسی با توصیه‌های عملی است در مورد اینکه چه باید کرد.
@@ -119,3 +120,5 @@ POC برای دور زدن per-app split tunneling: https://github.com/runetfree
 آشکارساز پیشرفته توسط @cherepavel: https://github.com/cherepavel/VPN-Detector
 مستندات GrapheneOS: https://grapheneos.org/features
 Throne (سابقاً Nekoray): https://github.com/throneproj/Throne
+
+</div>
