@@ -11,7 +11,7 @@ This is purely defensive research information.
 
 Before getting into the technical details it is worth stepping back and thinking about what this vulnerability actually represents in a broader context.
 
-The internet was built as a decentralized, open system. Over time governments, corporations, and intelligence agencies have worked steadily to erode that openness through surveillance infrastructure, app store control, mandatory data retention laws, and now what this article describes: forcing private companies to embed state spyware directly into consumer software.
+The internet was built as a decentralized, open system. Over time governments, corporations, and intelligence agencies have worked steadily to erode that openness through surveillance infrastructure, app store control, mandatory data retention laws, and now what this article describes: forcing private companies to embed state spyware directly into consumer software(allegedly).
 
 This is not unique to Russia. Similar dynamics exist in China, Iran, and increasingly in countries that would not describe themselves as authoritarian. The tools and techniques travel. What gets deployed against dissidents and journalists in one country gets studied and copied elsewhere. The fact that Russian banking apps are now expected to help identify VPN users is a glimpse at a direction of travel, not an isolated edge case.
 
