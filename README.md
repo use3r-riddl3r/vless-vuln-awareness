@@ -181,3 +181,5 @@ This section will be updated (will try my best) as clients ship fixes. PRs to up
 ![Hiddify](https://img.shields.io/github/issues/search?q=repo%3Ahiddify%2Fhiddify-app+socks5+auth&label=socks5+fix+issue)
 
 ![Last Updated](https://img.shields.io/github/last-commit/use3r-riddl3r/vless-vuln-awareness?label=last%20updated)
+
+Share: https://use3r-riddl3r.github.io/vless-vuln-awareness/
